@@ -1,0 +1,8 @@
+python: 3.6
+cuda: 10.2
+entrypoint: python runway_model.py
+spec:
+  cpu: False
+  gpu: True
+build_steps:
+  - pip install -r requirements.txt

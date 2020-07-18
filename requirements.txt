@@ -4,3 +4,4 @@ numpy
 torch == 1.1
 torchvision == 0.3.0
 tqdm
+runway-python
